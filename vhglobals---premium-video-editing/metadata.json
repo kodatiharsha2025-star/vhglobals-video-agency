@@ -1,6 +1,0 @@
-{
-  "name": "VHGlobals - Premium Video Editing",
-  "description": "High-converting agency landing page for VHGlobals, a premium video editing service specializing in real estate, SaaS explainer, documentary, talking head, and GeoLayers 3 map animation.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
