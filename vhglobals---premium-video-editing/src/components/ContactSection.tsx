@@ -70,7 +70,7 @@ export default function ContactSection({ onBookCall }: ContactSectionProps) {
 
             {/* Exactly updated subheading as requested */}
             <p className="text-base sm:text-lg text-neutral-600 leading-relaxed">
-              Send us a message or book for a 15-minute strategy call with our creative leads.
+              Send us a message or book a 30-minute strategy call with our creative leads.
             </p>
 
             <div className="space-y-4 pt-2">

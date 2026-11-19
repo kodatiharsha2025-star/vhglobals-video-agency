@@ -30,7 +30,7 @@ export const FAQ_ITEMS: FaqItem[] = [
     id: 'how-much-does-it-cost',
     question: 'How much does a video editing retainer cost?',
     answer:
-      'VHGLOBALS quotes retainers per engagement rather than from a fixed price list, because cost depends on monthly volume, the formats you need, and how much motion graphics work each video carries. A channel publishing four short-form edits a month and a brokerage publishing twenty listing walkthroughs are different pieces of work. Pricing is scoped on a 15-minute call where monthly volume, turnaround expectations and style requirements are mapped, and you receive a fixed monthly figure before any work begins. There are no per-revision charges inside an agreed retainer.',
+      'VHGLOBALS quotes retainers per engagement rather than from a fixed price list, because cost depends on monthly volume, the formats you need, and how much motion graphics work each video carries. A channel publishing four short-form edits a month and a brokerage publishing twenty listing walkthroughs are different pieces of work. Pricing is scoped on a 30-minute call where monthly volume, turnaround expectations and style requirements are mapped, and you receive a fixed monthly figure before any work begins. There are no per-revision charges inside an agreed retainer.',
   },
   {
     id: 'turnaround-time',
@@ -66,7 +66,7 @@ export const FAQ_ITEMS: FaqItem[] = [
     id: 'how-to-get-started',
     question: 'What do you need from me to get started?',
     answer:
-      'Getting started with VHGLOBALS takes a 15-minute call to map your monthly volume, style references and turnaround needs, after which you are matched with a lead editor. From there you need three things: your raw footage, any style reference such as an existing video you like, a LUT or a brand style guide, and a shared Slack or Discord channel for day-to-day handoff. The editor adapts to your presets and pacing from the reference material rather than asking you to write a detailed brief for every video.',
+      'Getting started with VHGLOBALS takes a 30-minute call to map your monthly volume, style references and turnaround needs, after which you are matched with a lead editor. From there you need three things: your raw footage, any style reference such as an existing video you like, a LUT or a brand style guide, and a shared Slack or Discord channel for day-to-day handoff. The editor adapts to your presets and pacing from the reference material rather than asking you to write a detailed brief for every video.',
   },
   {
     id: 'real-estate-mls',
