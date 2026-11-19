@@ -64,20 +64,21 @@ export default function Footer({ onBookCall }: FooterProps) {
             </h4>
             <div className="flex flex-wrap gap-2">
               {[
-                'Real Estate',
-                'SaaS Product Explainer',
-                'Product Launch Videos',
-                'Promo Videos',
-                'Documentary Video Essays',
-                'Talking Head',
-                'Geo Layer 3 Maps'
+                { label: 'Real Estate', href: '/real-estate-video-editing' },
+                { label: 'SaaS Product Explainer', href: '/saas-explainer-videos' },
+                { label: 'Product Launch Videos', href: '/saas-explainer-videos' },
+                { label: 'Promo Videos', href: '/saas-explainer-videos' },
+                { label: 'Documentary Video Essays', href: '/documentary-video-editing' },
+                { label: 'Talking Head', href: '/talking-head-video-editing' },
+                { label: 'Geo Layer 3 Maps', href: '/geolayers-3-map-animation' }
               ].map((n, idx) => (
-                <span
+                <a
                   key={idx}
-                  className="text-xs px-2.5 py-1 rounded-md bg-neutral-100 border border-neutral-200 text-neutral-700 hover:border-[#2596be]/50 transition-colors"
+                  href={n.href}
+                  className="text-xs px-2.5 py-1 rounded-md bg-neutral-100 border border-neutral-200 text-neutral-700 hover:border-[#2596be]/50 hover:text-[#2596be] transition-colors"
                 >
-                  {n}
-                </span>
+                  {n.label}
+                </a>
               ))}
             </div>
 

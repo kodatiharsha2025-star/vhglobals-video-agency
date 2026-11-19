@@ -2,15 +2,13 @@
 <!--
   Sitemap for video.vhglobals.com
 
-  The site is currently a single page, so there is one <url> entry. The 26
-  showcase videos displayed on that page are declared with the video sitemap
-  extension, which makes each one independently discoverable in Google Video
-  search without needing a separate page per video.
+  Six pages: the homepage plus one page per editing discipline. Each showcase
+  video is declared once, under the niche page it belongs to, rather than under
+  the homepage, because the niche page is the more specific match for a video
+  search and a video should not be claimed by two URLs.
 
-  When the niche pages are split onto their own URLs, add a <url> entry for
-  each and move the relevant <video:video> children under it.
-
-  Update <lastmod> when the page content actually changes.
+  Update <lastmod> when a page actually changes. Recency is a real ranking and
+  citation signal, so an honest date is worth more than a fresh one.
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
@@ -19,6 +17,12 @@
     <lastmod>2026-11-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://video.vhglobals.com/real-estate-video-editing</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
     <video:video>
       <video:thumbnail_loc>https://res.cloudinary.com/ht2bpccb/video/upload/so_1/v1789312224/level_1_real_estate.jpg</video:thumbnail_loc>
       <video:title>Level 1 Real Estate Tour – Clean Architectural Walkthrough</video:title>
@@ -64,6 +68,12 @@
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
     </video:video>
+  </url>
+  <url>
+    <loc>https://video.vhglobals.com/saas-explainer-videos</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
     <video:video>
       <video:thumbnail_loc>https://res.cloudinary.com/ht2bpccb/video/upload/so_1/v1789310857/cludio_crm.jpg</video:thumbnail_loc>
       <video:title>Cludio CRM – Client Workflow, Invoicing &amp; Project Hub</video:title>
@@ -118,6 +128,12 @@
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
     </video:video>
+  </url>
+  <url>
+    <loc>https://video.vhglobals.com/documentary-video-editing</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/iyQeQ5q5MmI/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>The Investigation – Forensic Case File Crime Documentary</video:title>
@@ -163,6 +179,12 @@
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
     </video:video>
+  </url>
+  <url>
+    <loc>https://video.vhglobals.com/talking-head-video-editing</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/Z5ncTn87A-U/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>Dynamic Graphics &amp; Visual Effects – Talking Head Showcase</video:title>
@@ -217,6 +239,12 @@
       <video:requires_subscription>no</video:requires_subscription>
       <video:live>no</video:live>
     </video:video>
+  </url>
+  <url>
+    <loc>https://video.vhglobals.com/geolayers-3-map-animation</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
     <video:video>
       <video:thumbnail_loc>https://img.youtube.com/vi/memwIwPxMDY/maxresdefault.jpg</video:thumbnail_loc>
       <video:title>This Country Refuses to Use Normal Time – Cartographic Timezone Analysis</video:title>
