@@ -25,3 +25,4 @@ export function render(path: string): string {
 export { NICHE_PAGES } from './data/niches';
 export { SHOWCASE_DATA } from './data/showcases';
 export { SERVICES_LIST } from './components/Services';
+export { COMPARE_PAGE } from './pages/ComparePage';

@@ -37,7 +37,7 @@ if (!existsSync(ssrEntry)) {
 }
 
 const mod = await import(pathToFileURL(ssrEntry).href);
-const { render, NICHE_PAGES, SHOWCASE_DATA, SERVICES_LIST } = mod;
+const { render, NICHE_PAGES, SHOWCASE_DATA, SERVICES_LIST, COMPARE_PAGE } = mod;
 
 const template = readFileSync(indexPath, 'utf-8');
 if (!template.includes(MOUNT)) {
@@ -163,7 +163,8 @@ if (!LD_BLOCK.test(template)) {
   throw new Error('prerender: no ld+json block in template to swap per page.');
 }
 
-for (const page of NICHE_PAGES) {
+/** Build one static page: swap every head field, swap the schema, inject the body. */
+function buildPage(page, jsonLd) {
   const url = `${ORIGIN}/${page.slug}`;
   const rendered = render(`/${page.slug}`);
 
@@ -204,13 +205,46 @@ for (const page of NICHE_PAGES) {
     /<meta name="twitter:description"[^>]*>/,
     `<meta name="twitter:description" content="${esc(page.metaDescription)}" />`
   );
-  html = html.replace(LD_BLOCK, nicheJsonLd(page));
+  html = html.replace(LD_BLOCK, jsonLd);
   html = html.replace(MOUNT, `<div id="root">${rendered}</div>`);
 
   writePage(page.slug, html, page.navLabel);
 }
 
+for (const page of NICHE_PAGES) {
+  buildPage(page, nicheJsonLd(page));
+}
+
+// ---- comparison guide -----------------------------------------------------
+{
+  const url = `${ORIGIN}/${COMPARE_PAGE.slug}`;
+  const graph = [
+    {
+      '@type': 'WebPage',
+      '@id': `${url}#webpage`,
+      url,
+      name: COMPARE_PAGE.title,
+      description: COMPARE_PAGE.metaDescription,
+      isPartOf: { '@id': `${ORIGIN}/#website` },
+      about: { '@id': `${ORIGIN}/#business` },
+      breadcrumb: { '@id': `${url}#breadcrumbs` },
+      publisher: { '@id': ORG },
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${url}#breadcrumbs`,
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Video editing', item: `${ORIGIN}/` },
+        { '@type': 'ListItem', position: 2, name: COMPARE_PAGE.navLabel, item: url },
+      ],
+    },
+  ];
+  const body = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph }, null, 2)
+    .split('\n').map((l) => '    ' + l).join('\n');
+  buildPage(COMPARE_PAGE, `    <script type="application/ld+json">\n${body}\n    </script>`);
+}
+
 // The SSR bundle is a build artefact only; it must not be deployed.
 rmSync(join(root, 'dist-ssr'), { recursive: true, force: true });
 
-console.log(`prerender: ${NICHE_PAGES.length + 1} pages written`);
+console.log(`prerender: ${NICHE_PAGES.length + 2} pages written`);

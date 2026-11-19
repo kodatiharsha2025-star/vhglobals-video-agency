@@ -1,5 +1,6 @@
 import App from './App';
 import NichePage from './pages/NichePage';
+import ComparePage, { COMPARE_PAGE } from './pages/ComparePage';
 import { NICHE_BY_SLUG } from './data/niches';
 
 /**
@@ -16,7 +17,11 @@ import { NICHE_BY_SLUG } from './data/niches';
  */
 export default function Root({ path }: { path: string }) {
   const slug = path.replace(/^\/+/, '').replace(/\/+$/, '');
-  const page = NICHE_BY_SLUG[slug];
 
-  return page ? <NichePage page={page} /> : <App />;
+  if (slug === COMPARE_PAGE.slug) return <ComparePage />;
+
+  const niche = NICHE_BY_SLUG[slug];
+  if (niche) return <NichePage page={niche} />;
+
+  return <App />;
 }

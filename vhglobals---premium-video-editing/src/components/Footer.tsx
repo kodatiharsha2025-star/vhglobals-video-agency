@@ -70,7 +70,8 @@ export default function Footer({ onBookCall }: FooterProps) {
                 { label: 'Promo Videos', href: '/saas-explainer-videos' },
                 { label: 'Documentary Video Essays', href: '/documentary-video-editing' },
                 { label: 'Talking Head', href: '/talking-head-video-editing' },
-                { label: 'Geo Layer 3 Maps', href: '/geolayers-3-map-animation' }
+                { label: 'Geo Layer 3 Maps', href: '/geolayers-3-map-animation' },
+                { label: 'Outsourcing guide', href: '/outsource-video-editing' }
               ].map((n, idx) => (
                 <a
                   key={idx}
