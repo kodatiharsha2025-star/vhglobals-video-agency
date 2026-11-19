@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sitemap for video.vhglobals.com
+
+  The site is currently a single page, so there is one <url> entry. The 26
+  showcase videos displayed on that page are declared with the video sitemap
+  extension, which makes each one independently discoverable in Google Video
+  search without needing a separate page per video.
+
+  When the niche pages are split onto their own URLs, add a <url> entry for
+  each and move the relevant <video:video> children under it.
+
+  Update <lastmod> when the page content actually changes.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://video.vhglobals.com/</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <video:video>
+      <video:thumbnail_loc>https://res.cloudinary.com/ht2bpccb/video/upload/so_1/v1789312224/level_1_real_estate.jpg</video:thumbnail_loc>
+      <video:title>Level 1 Real Estate Tour – Clean Architectural Walkthrough</video:title>
+      <video:description>Smooth vertical listing walkthrough featuring clean gimbal moves, natural ambient light balance, and fluid transitions between living and outdoor spaces.</video:description>
+      <video:content_loc>https://res.cloudinary.com/ht2bpccb/video/upload/v1789312224/level_1_real_estate.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://res.cloudinary.com/ht2bpccb/video/upload/so_1/v1789312220/level_2_real_estate.jpg</video:thumbnail_loc>
+      <video:title>Level 2 Real Estate Tour – Dynamic Speed Ramping &amp; Rhythm</video:title>
+      <video:description>Cinematic vertical property tour engineered for social discovery. Combines rhythmic beat transitions, whip pans, and punchy feature callouts.</video:description>
+      <video:content_loc>https://res.cloudinary.com/ht2bpccb/video/upload/v1789312220/level_2_real_estate.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://res.cloudinary.com/ht2bpccb/video/upload/so_1/v1789312252/level_3_real_estate.jpg</video:thumbnail_loc>
+      <video:title>Level 3 Real Estate Tour – Luxury Cinematic Flagship Cut</video:title>
+      <video:description>Flagship vertical luxury showcase with cinematic color science, detailed textural macro inserts, drone aerial integrations, and atmospheric sound design.</video:description>
+      <video:content_loc>https://res.cloudinary.com/ht2bpccb/video/upload/v1789312252/level_3_real_estate.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://res.cloudinary.com/ht2bpccb/video/upload/so_1/v1789312223/level_2_real_estate_horizontal.jpg</video:thumbnail_loc>
+      <video:title>Level 2 Real Estate Showcase – Modern Cinematic Walkthrough</video:title>
+      <video:description>Broad 16:9 cinematic tour highlighting architectural volume, custom finishes, ambient pacing, and landscape integration.</video:description>
+      <video:content_loc>https://res.cloudinary.com/ht2bpccb/video/upload/v1789312223/level_2_real_estate_horizontal.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://res.cloudinary.com/ht2bpccb/video/upload/so_1/v1789311481/level_3_real_estate_horizontal.jpg</video:thumbnail_loc>
+      <video:title>Level 3 Real Estate Showcase – High-End Luxury Estate Tour</video:title>
+      <video:description>Ultra-premium wide-angle property film combining drone speed ramping, twilight lighting transitions, and master-suite showcases.</video:description>
+      <video:content_loc>https://res.cloudinary.com/ht2bpccb/video/upload/v1789311481/level_3_real_estate_horizontal.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://res.cloudinary.com/ht2bpccb/video/upload/so_1/v1789310857/cludio_crm.jpg</video:thumbnail_loc>
+      <video:title>Cludio CRM – Client Workflow, Invoicing &amp; Project Hub</video:title>
+      <video:description>Engaging workflow explainer for Cludio CRM. Turns spreadsheet and email chaos into an organized client pipeline, instant invoice generator with payment links, and live revenue analytics.</video:description>
+      <video:content_loc>https://res.cloudinary.com/ht2bpccb/video/upload/v1789310857/cludio_crm.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://res.cloudinary.com/ht2bpccb/video/upload/so_1/v1789310848/hubspot_best.jpg</video:thumbnail_loc>
+      <video:title>HubSpot – Connected CRM, Contact Insights &amp; Sales Engine</video:title>
+      <video:description>High-octane SaaS promotional video for HubSpot. Highlights the friction of disconnected tools and presents HubSpot as the unified hub for contact insights, deals, emails, and sales.</video:description>
+      <video:content_loc>https://res.cloudinary.com/ht2bpccb/video/upload/v1789310848/hubspot_best.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://res.cloudinary.com/ht2bpccb/video/upload/so_1/v1789310840/pitch.jpg</video:thumbnail_loc>
+      <video:title>Pitch – Next-Gen Career &amp; Talent Network</video:title>
+      <video:description>Dynamic product launch film for Pitch. Targets candidate and recruiter pain points before unveiling next-gen video profiles, one-click candidate screening, and global networking.</video:description>
+      <video:content_loc>https://res.cloudinary.com/ht2bpccb/video/upload/v1789310840/pitch.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://res.cloudinary.com/ht2bpccb/video/upload/so_1/v1789310832/papers.jpg</video:thumbnail_loc>
+      <video:title>+Papers – Company Creation &amp; Accounting Automation</video:title>
+      <video:description>High-energy SaaS promotional video featuring +Papers. Demonstrates company creation, automated compliance, and instantaneous drag-and-drop invoice and receipt uploads with automated status tracking.</video:description>
+      <video:content_loc>https://res.cloudinary.com/ht2bpccb/video/upload/v1789310832/papers.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://res.cloudinary.com/ht2bpccb/video/upload/so_1/v1789310825/swisscom.jpg</video:thumbnail_loc>
+      <video:title>Swisscom Sign – Qualified Electronic Signature Platform</video:title>
+      <video:description>Enterprise B2B SaaS explainer for Swisscom Sign. Details 100% digital, legally valid QES electronic signatures, instant cross-device approval via mobile QR code, and corporate security.</video:description>
+      <video:content_loc>https://res.cloudinary.com/ht2bpccb/video/upload/v1789310825/swisscom.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://res.cloudinary.com/ht2bpccb/video/upload/so_1/v1789310822/Lang_Ease.jpg</video:thumbnail_loc>
+      <video:title>LangEase – AI Multi-Language Video Localization</video:title>
+      <video:description>Conversion-engineered product demo for LangEase. Demonstrates under-30-second multi-language translation, automated subtitle generation, and synchronized AI voiceovers for global creators.</video:description>
+      <video:content_loc>https://res.cloudinary.com/ht2bpccb/video/upload/v1789310822/Lang_Ease.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/iyQeQ5q5MmI/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>The Investigation – Forensic Case File Crime Documentary</video:title>
+      <video:description>Gripping forensic reconstruction utilizing corkboard red-string connection charts, redacted document highlight animations, and dramatic suspect dossier transitions.</video:description>
+      <video:content_loc>https://youtu.be/iyQeQ5q5MmI</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/jn9uvQAtzUM/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>The Goan Inquisition – Historical Investigative Documentary</video:title>
+      <video:description>Deep historical narrative exploring the records of the Goan Inquisition. Blends 2.5D archival painting parallax, textured manuscript animations, and atmospheric cinematic sound design.</video:description>
+      <video:content_loc>https://youtu.be/jn9uvQAtzUM</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/diLbP36hf14/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Poland: History &amp; Survival – Geopolitical Documentary</video:title>
+      <video:description>Fast-paced historical analysis of Poland\</video:description>
+      <video:content_loc>https://youtu.be/diLbP36hf14</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/L9KHfNhjwHY/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Shadows in the Mist – Crime Thriller Documentary Story</video:title>
+      <video:description>True-crime investigative thriller editing featuring dark cinematic color grades, tape-recorder audio waveform FX, typewriter text reveals, and atmospheric crime scene pacing.</video:description>
+      <video:content_loc>https://youtu.be/L9KHfNhjwHY</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://res.cloudinary.com/ht2bpccb/video/upload/so_1/v1789317178/Copy_of_The_Downfall_of_Brazil_Documentary_compressed_1.jpg</video:thumbnail_loc>
+      <video:title>The Downfall of Brazil – Economic &amp; Political Video Essay</video:title>
+      <video:description>Comprehensive video essay analyzing modern economic boom-and-bust cycles. Features newspaper headline popouts, statistical motion graphs, and investigative photo montages.</video:description>
+      <video:content_loc>https://res.cloudinary.com/ht2bpccb/video/upload/v1789317178/Copy_of_The_Downfall_of_Brazil_Documentary_compressed_1.mp4</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/Z5ncTn87A-U/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Dynamic Graphics &amp; Visual Effects – Talking Head Showcase</video:title>
+      <video:description>Dynamic vertical talking head edit featuring custom floating assets, animated text typography, punch-in camera zooms, and sound-designed beat synchronization.</video:description>
+      <video:content_loc>https://youtube.com/shorts/Z5ncTn87A-U?feature=share</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/mG7l9pYFDGg/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Brand Edit – Personal Branding &amp; Visual Authority</video:title>
+      <video:description>Sleek personal branding edit built for thought leaders and creators. Incorporates crisp typography, smooth motion transitions, branded overlays, and subtle sound effects.</video:description>
+      <video:content_loc>https://youtube.com/shorts/mG7l9pYFDGg?feature=share</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/uN-NoJWKU6g/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Motion Graphics – Concept Visualization &amp; Dynamic Pacing</video:title>
+      <video:description>Concept visualization talking head video translating abstract points into engaging on-screen graphics, vector iconography, and split-second punch-in cuts.</video:description>
+      <video:content_loc>https://youtube.com/shorts/uN-NoJWKU6g?feature=share</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/WvyDSDKS6jY/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Talking Head – Creator Engagement &amp; Visual Flow</video:title>
+      <video:description>Engaging creator showcase blending seamless camera reframing, animated emoji reactions, animated captions, and modern sound design to build viral momentum.</video:description>
+      <video:content_loc>https://youtube.com/shorts/WvyDSDKS6jY?feature=share</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/_rE8CLHTr70/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Karlos – Dynamic Typography &amp; High-Energy Talking Head</video:title>
+      <video:description>Dynamic vertical talking head video featuring high-impact animated typography, bold color highlights, speed-ramped cutaways, and punchy audio beat accents.</video:description>
+      <video:content_loc>https://youtube.com/shorts/_rE8CLHTr70?feature=share</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/Sqk9GRC-S5k/frame0.jpg</video:thumbnail_loc>
+      <video:title>Talking Head – Cinematic Visuals &amp; Narrative Flow</video:title>
+      <video:description>Polished talking head edit built with cinematic color grading, smooth micro-zooms, crisp on-screen highlights, and layered atmospheric sound design.</video:description>
+      <video:content_loc>https://youtube.com/shorts/Sqk9GRC-S5k?feature=share</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/memwIwPxMDY/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>This Country Refuses to Use Normal Time – Cartographic Timezone Analysis</video:title>
+      <video:description>Engaging vertical 3D map animation exploring unusual geopolitical timezone anomalies and territorial boundaries with dynamic satellite cartography and country highlight shaders.</video:description>
+      <video:content_loc>https://youtube.com/shorts/memwIwPxMDY?si=V6Gz7shKAfAiRCEp</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/bxwoBuaBg04/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>The River America Won’t Let Change Course – Geological Engineering</video:title>
+      <video:description>Visual breakdown of the Old River Control Structure preventing the Mississippi River from diverting into the Atchafalaya basin. Utilizes realistic satellite water displacement and 3D terrain elevation.</video:description>
+      <video:content_loc>https://youtube.com/shorts/bxwoBuaBg04?si=AI2CzauyndjbUM1t</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/VTuP2A9p_2w/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>5 Countries That Own More Ocean Than Land – Maritime EEZ Boundaries</video:title>
+      <video:description>3D planetary globe animation detailing Exclusive Economic Zones (EEZ). Highlights island nations with vast oceanic footprints using glowing boundary shaders and dynamic nautical cartography.</video:description>
+      <video:content_loc>https://youtube.com/shorts/VTuP2A9p_2w?si=IPr8n6tedSOGMTdQ</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+    <video:video>
+      <video:thumbnail_loc>https://img.youtube.com/vi/NHiJ4X8rwkU/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>Canada Has a Geography Problem Nobody Talks About – Geopolitical Breakdown</video:title>
+      <video:description>Comprehensive 16:9 documentary map analysis exploring the Canadian Shield, permafrost corridors, and southern border population density clustering with high-precision 3D elevation models.</video:description>
+      <video:content_loc>https://youtu.be/NHiJ4X8rwkU?si=I7Da2UuXc2afmyUM</video:content_loc>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:requires_subscription>no</video:requires_subscription>
+      <video:live>no</video:live>
+    </video:video>
+  </url>
+</urlset>
