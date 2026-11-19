@@ -16,7 +16,7 @@ export const NICHE_TABS: NicheTab[] = [
   },
   {
     id: 'saas-explainer',
-    label: 'SaaS Explainer Videos / Product Launch Videos / Promo Videos',
+    label: 'SaaS Explainers',
     tagline: 'Slick UI animations, cursor dynamics & high-conversion product walkthroughs',
     iconName: 'Laptop'
   },
@@ -162,7 +162,7 @@ export const SHOWCASE_DATA: Record<NicheId, VideoShowcaseItem[]> = {
     {
       id: 'saas-cludio-crm',
       nicheId: 'saas-explainer',
-      nicheLabel: 'SaaS Explainer Videos / Product launch videos / Promo videos',
+      nicheLabel: 'SaaS Explainers',
       title: 'Cludio CRM – Client Workflow, Invoicing & Project Hub',
       formatType: 'Horizontal (16:9)',
       aspectRatio: '16:9',
@@ -185,7 +185,7 @@ export const SHOWCASE_DATA: Record<NicheId, VideoShowcaseItem[]> = {
     {
       id: 'saas-hubspot-best',
       nicheId: 'saas-explainer',
-      nicheLabel: 'SaaS Explainer Videos / Product launch videos / Promo videos',
+      nicheLabel: 'SaaS Explainers',
       title: 'HubSpot – Connected CRM, Contact Insights & Sales Engine',
       formatType: 'Horizontal (16:9)',
       aspectRatio: '16:9',
@@ -208,7 +208,7 @@ export const SHOWCASE_DATA: Record<NicheId, VideoShowcaseItem[]> = {
     {
       id: 'saas-pitch',
       nicheId: 'saas-explainer',
-      nicheLabel: 'SaaS Explainer Videos / Product launch videos / Promo videos',
+      nicheLabel: 'SaaS Explainers',
       title: 'Pitch – Next-Gen Career & Talent Network',
       formatType: 'Horizontal (16:9)',
       aspectRatio: '16:9',
@@ -231,7 +231,7 @@ export const SHOWCASE_DATA: Record<NicheId, VideoShowcaseItem[]> = {
     {
       id: 'saas-papers',
       nicheId: 'saas-explainer',
-      nicheLabel: 'SaaS Explainer Videos / Product launch videos / Promo videos',
+      nicheLabel: 'SaaS Explainers',
       title: '+Papers – Company Creation & Accounting Automation',
       formatType: 'Horizontal (16:9)',
       aspectRatio: '16:9',
@@ -254,7 +254,7 @@ export const SHOWCASE_DATA: Record<NicheId, VideoShowcaseItem[]> = {
     {
       id: 'saas-swisscom',
       nicheId: 'saas-explainer',
-      nicheLabel: 'SaaS Explainer Videos / Product launch videos / Promo videos',
+      nicheLabel: 'SaaS Explainers',
       title: 'Swisscom Sign – Qualified Electronic Signature Platform',
       formatType: 'Horizontal (16:9)',
       aspectRatio: '16:9',
@@ -277,7 +277,7 @@ export const SHOWCASE_DATA: Record<NicheId, VideoShowcaseItem[]> = {
     {
       id: 'saas-langease',
       nicheId: 'saas-explainer',
-      nicheLabel: 'SaaS Explainer Videos / Product launch videos / Promo videos',
+      nicheLabel: 'SaaS Explainers',
       title: 'LangEase – AI Multi-Language Video Localization',
       formatType: 'Horizontal (16:9)',
       aspectRatio: '16:9',

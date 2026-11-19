@@ -45,7 +45,7 @@ const CATEGORY_FILTERS: CategoryFilterItem[] = [
   },
   { 
     id: 'saas-explainer', 
-    label: 'SaaS Explainer Videos / Product Launch Videos / Promo Videos', 
+    label: 'SaaS Explainers', 
     icon: Laptop, 
     tagline: 'Slick UI animations, rapid cursor dynamics & high-conversion product launch demos' 
   },

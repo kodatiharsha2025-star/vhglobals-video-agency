@@ -28,7 +28,7 @@ export default function Hero({ onBookCall }: HeroProps) {
 
           {/* Supporting Headline */}
           <p className="text-lg sm:text-xl text-neutral-600 font-normal leading-relaxed max-w-3xl mx-auto mb-10">
-            Professional editing for real estate media companies and agents, social media content editing for brands, SaaS explainer videos for companies, documentary & geo layer 3 map animation for YouTubers. <span className="text-neutral-900 font-semibold">Cinematic quality. Consistent results.</span>
+            VHGLOBALS is a video editing agency working on monthly retainers, with a dedicated senior editor on your account and short-form drafts delivered in 24&ndash;48 hours. Specialist editing for real estate walkthroughs, SaaS explainers, documentaries, talking heads and GeoLayers 3 map animation. <span className="text-neutral-900 font-semibold">Cinematic quality. Consistent results.</span>
           </p>
 
           {/* CTA Button Group */}
@@ -62,10 +62,10 @@ export default function Hero({ onBookCall }: HeroProps) {
           {/* Key Agency Performance Pillars */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
             <div className="p-5 rounded-2xl bg-white border border-neutral-200 hover:border-[#2596be]/50 transition-all text-center shadow-sm">
-              <div className="text-xl sm:text-2xl font-bold font-display text-neutral-900 mb-1 leading-tight">
-                under 24hours to 48hours
+              <div className="text-2xl sm:text-3xl font-bold font-display text-neutral-900 mb-1 leading-tight">
+                24&ndash;48<span className="text-[#2596be]">h</span>
               </div>
-              <div className="text-xs text-neutral-500 font-medium">Turnaround Time</div>
+              <div className="text-xs text-neutral-500 font-medium">Short-Form Turnaround</div>
             </div>
 
             <div className="p-5 rounded-2xl bg-white border border-neutral-200 hover:border-[#2596be]/50 transition-all text-center shadow-sm">

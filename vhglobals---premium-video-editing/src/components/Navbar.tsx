@@ -59,8 +59,16 @@ export default function Navbar({ onBookCall }: NavbarProps) {
             Workflow
             <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#2596be] transition-all group-hover:w-full" />
           </a>
-          <a 
-            href="#contact" 
+          <a
+            href="#faq"
+            id="nav-link-faq"
+            className="hover:text-[#2596be] transition-colors py-1 relative group"
+          >
+            FAQ
+            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[#2596be] transition-all group-hover:w-full" />
+          </a>
+          <a
+            href="#contact"
             id="nav-link-contact"
             className="hover:text-[#2596be] transition-colors py-1 relative group"
           >
@@ -139,8 +147,15 @@ export default function Navbar({ onBookCall }: NavbarProps) {
             >
               Workflow
             </a>
-            <a 
-              href="#contact" 
+            <a
+              href="#faq"
+              onClick={() => setMobileMenuOpen(false)}
+              className="py-1.5 hover:text-[#2596be] transition-colors"
+            >
+              FAQ
+            </a>
+            <a
+              href="#contact"
               onClick={() => setMobileMenuOpen(false)}
               className="py-1.5 hover:text-[#2596be] transition-colors"
             >

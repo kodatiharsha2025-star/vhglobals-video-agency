@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import Workflow from './components/Workflow';
 import StyleShowcase from './components/StyleShowcase';
+import Faq from './components/Faq';
 import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import BookCallModal from './components/BookCallModal';
@@ -49,6 +50,9 @@ export default function App() {
 
         {/* Choose Your Style Section (Clean Vertical & Horizontal portfolio layouts) */}
         <StyleShowcase onBookCall={handleOpenBookCall} />
+
+        {/* Frequently Asked Questions (answers mirrored into FAQPage schema in index.html) */}
+        <Faq onBookCall={handleOpenBookCall} />
 
         {/* Direct Contact & Consultation Section */}
         <ContactSection onBookCall={handleOpenBookCall} />

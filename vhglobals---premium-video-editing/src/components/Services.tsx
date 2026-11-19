@@ -43,7 +43,7 @@ export const SERVICES_LIST: ServiceOffering[] = [
   },
   {
     id: 'saas-explainer',
-    title: 'SaaS Explainer Videos / Product Launch Videos / Promo Videos',
+    title: 'SaaS Explainer & Product Launch Videos',
     tagline: 'Slick UI animations, cursor dynamics & high-conversion product walkthroughs.',
     targetAudience: 'B2B tech founders, product marketers & venture-backed SaaS startups.',
     formats: ['Website Hero Walkthroughs', 'Product Launch Videos', 'High-Conversion Promo Films'],
@@ -245,7 +245,7 @@ export default function Services({ onBookCall }: ServicesProps) {
                 {[
                   'Dedicated Lead Editor + Motion Graphics Specialist',
                   'Shared Slack / Discord channel with creative director',
-                  'Guaranteed under 24hours to 48hours turnaround for priority short-form',
+                  'Guaranteed 24-48 hour turnaround for priority short-form',
                   'Flexible volume rollover & monthly quota adjustments'
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-start gap-2 text-xs text-neutral-700">
