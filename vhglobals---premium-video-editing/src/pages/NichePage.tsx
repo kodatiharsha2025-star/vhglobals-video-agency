@@ -100,6 +100,29 @@ export default function NichePage({ page }: Props) {
                 {page.audienceNote}
               </p>
 
+              {page.context && (
+                <figure className="mb-8 border-l-2 border-[#2596be] pl-5">
+                  <p className="text-base text-neutral-700 leading-relaxed">
+                    {page.context.text}
+                  </p>
+                  <figcaption className="mt-2 text-xs text-neutral-500">
+                    {page.context.sources.map((src, i) => (
+                      <span key={src.url}>
+                        {i > 0 && ' \u00b7 '}
+                        <a
+                          href={src.url}
+                          target="_blank"
+                          rel="noopener"
+                          className="underline underline-offset-2 hover:text-neutral-800"
+                        >
+                          {src.label}
+                        </a>
+                      </span>
+                    ))}
+                  </figcaption>
+                </figure>
+              )}
+
               {service && (
                 <div className="flex flex-wrap gap-2 mb-9">
                   {service.formats.map((f) => (

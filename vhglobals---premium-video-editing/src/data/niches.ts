@@ -20,6 +20,17 @@ export interface NichePage {
   intro: string;
   /** Second paragraph: who commissions this work. Adds the audience terms buyers search with. */
   audienceNote: string;
+  /**
+   * A sourced statistic shown under the audience note. Answer engines weight
+   * pages that carry verifiable, attributed figures, so every entry here must
+   * cite a named primary issuer and link to it. Widely repeated figures with
+   * no traceable issuer are deliberately excluded. Optional: omitted where no
+   * primary source exists for the niche.
+   */
+  context?: {
+    text: string;
+    sources: { label: string; url: string }[];
+  };
   /** FAQ ids from src/data/faqs.ts, most relevant to this niche first. */
   faqIds: string[];
 }
@@ -37,6 +48,20 @@ export const NICHE_PAGES: NichePage[] = [
       'VHGLOBALS edits real estate video on a monthly retainer, delivering luxury property walkthroughs, drone sequences and MLS-ready cutdowns with short-form drafts in 24 to 48 hours. One dedicated editor handles every listing, so pacing and colour stay consistent across a whole portfolio rather than changing with whoever was free that week.',
     audienceNote:
       'Commissioned by real estate media production companies, luxury brokerages and high-volume agents who publish listings on a steady cadence and need both a 16:9 master for MLS and vertical cuts for social from the same shoot.',
+    context: {
+      text:
+        'The National Association of REALTORS® 2025 Home Buyers and Sellers Generational Trends report records virtual tours as "very useful" for 41 percent of buyers who used the internet during their search. In NAR\u2019s research on staging, buyers\u2019 agents rated video (48 percent) and virtual tours (43 percent) as highly important to their clients, behind photos at 73 percent.',
+      sources: [
+        {
+          label: 'NAR, 2025 Home Buyers and Sellers Generational Trends',
+          url: 'https://cms.nar.realtor/sites/default/files/2025-03/2025-home-buyers-and-sellers-generational-trends-report-04-01-2025.pdf',
+        },
+        {
+          label: 'NAR, Home Staging report press release',
+          url: 'https://www.nar.realtor/press-releases/nar-report-reveals-home-staging-boosts-sale-prices-and-reduces-time-on-market',
+        },
+      ],
+    },
     faqIds: [
       'real-estate-mls',
       'turnaround-time',
@@ -57,6 +82,17 @@ export const NICHE_PAGES: NichePage[] = [
       'VHGLOBALS edits SaaS explainer and product launch video, turning raw screen recordings into walkthroughs that hold attention: fluid cursor tracking with click micro-interactions, 3D isometric device mockups, and typography that puts product ROI on screen. Work runs on a monthly retainer with a dedicated editor, and short-form drafts arrive in 24 to 48 hours.',
     audienceNote:
       'Commissioned by B2B tech founders, product marketers and venture-backed SaaS startups who need website hero walkthroughs, launch films and promo cuts without hiring an in-house motion designer.',
+    context: {
+      text:
+        'Unbounce\u2019s Conversion Benchmark Report puts the median SaaS landing page conversion rate at 3.8 percent \u2014 the lowest of any industry it measures, against a 6.6 percent median across all industries \u2014 with 79 percent of SaaS landing page visits arriving on mobile. Wyzowl\u2019s annual video marketing survey finds 96 percent of people have watched an explainer video to learn about a product.',
+      sources: [
+        {
+          label: 'Unbounce, Conversion Benchmark Report (SaaS)',
+          url: 'https://unbounce.com/conversion-benchmark-report/saas-conversion-rate/',
+        },
+        { label: 'Wyzowl, Video Marketing Statistics', url: 'https://wyzowl.com/video-marketing-statistics/' },
+      ],
+    },
     faqIds: [
       'what-is-a-retainer',
       'turnaround-time',
