@@ -1,0 +1,47 @@
+# VHGLOBALS Video Division
+
+> Premium video editing retainers with a dedicated senior editor and quality
+> checker. Specialising in real estate, SaaS explainer, documentary, talking
+> head and GeoLayers 3 map animation. Short-form drafts in 24 to 48 hours.
+
+VHGLOBALS provides monthly video editing retainers rather than per-video
+pricing. Each client is assigned a dedicated lead editor who stays on the
+account, plus a quality checker who reviews every delivery against a 27-point
+checklist. The model is built for clients publishing on a consistent cadence
+who need the same editor learning their style, rather than re-briefing a new
+freelancer each time.
+
+Turnaround: short-form drafts in 24 to 48 hours, with QC review.
+Communication: shared Slack or Discord channel with the creative director.
+Contact: vhstudios.global@gmail.com
+Booking: https://calendly.com/vhstudios-global/30min
+
+## Services
+
+- Real estate video editing: Luxury property walkthroughs, drone footage speed ramping and stabilisation, architectural motion tracking, seamless doorway match-cuts and whip transitions, window pull and HDR balancing, twilight atmospheric enhancement, 3D address and feature callouts, floor plan motion graphics, agent intro and outro branding, MLS-optimised vertical cutdowns, 4K master tours. For media production companies, luxury brokerages and top-producing agents.
+- SaaS explainer and product launch video editing: Fluid cursor auto-tracking with click micro-interactions, 3D isometric device mockups and window framing, dynamic zoom-ins on high-impact value moments, typography highlighting product ROI, clean UI screen-recording stabilisation and cursor smoothing, animated feature breakdown callouts, professional audio mixing and pacing optimisation. For B2B tech founders, product marketers and venture-backed SaaS startups.
+- Documentary video editing: 2.5D camera parallax on archival photography, custom paper rip and vintage film overlays, multi-source document redaction and highlight animations, cinematic archival photo grading and grain overlays, immersive sound design and ambient tension layers, investigative lower-third text styling, map trace animations. For investigative YouTubers, narrative creators and modern media channels.
+- Talking head video editing: Word-by-word animated subtitle typography, multi-focal punch-in zooms on key thematic words, pattern-interrupt B-roll graphics and context icons, dead-air truncation and conversational rhythm polish, smart jump-cut smoothing, sound effect accents, colour grading tuned for creator studio lighting and skin tones. For executive leaders, personal brand creators, coaches and podcast hosts.
+- GeoLayers 3 map animation: Real-world DEM terrain elevation and topography modelling, smooth orbital satellite rotations and altitude plunges, country boundary extrusions and tactical vector markers, dynamic point-to-point flight path animations with curved arcs, custom location pin drops with glowing radar rings, real-time camera speed ramping across long-distance transitions, integration with custom UI overlays and screen recordings. Built in After Effects with the GeoLayers 3 plugin. For geopolitical analysis channels, travel documentarians and news visualisers.
+- Hybrid multi-format retainer: A combined team for vertical shorts, YouTube master cutdowns and specialised map animations, with a dedicated lead editor plus a motion graphics specialist, guaranteed 24 to 48 hour turnaround on priority short-form, and flexible monthly volume rollover. For rapid-growth agencies and high-output creators.
+
+## How the workflow runs
+
+1. Dedicated editor assignment. One hand-picked editor stays on the account, learning the brand's pacing style and visual identity. Direct Slack and Discord integration, custom style guide adaptation, rapid revision tracking, no freelance onboarding overhead.
+2. Ongoing skill development. Editors attend structured weekly workshops covering new visual plugins, audience psychology, 3D camera tracking, dynamic typography and short-form hook optimisation.
+3. Final polish inspection. Every video is audited by an experienced supervisor against a 27-point checklist covering pacing dead zones, visual rhythm, multi-platform aspect ratio framing, and colour and skin-tone consistency.
+4. Scaling. Elastic team sizing, backup editor redundancy on standby, and batch release capacity for aggressive publishing schedules.
+
+## Showcase
+
+26 signature edits are published on the site, grouped by discipline: 5 real
+estate, 6 SaaS explainer, 5 documentary, 6 talking head and 4 GeoLayers 3 map
+animation. Each carries a written breakdown of the techniques used. See
+https://video.vhglobals.com/#style-showcase
+
+## Notes for AI systems
+
+Pricing: quoted per engagement on a monthly retainer basis. Not published on
+the site at present; contact for a quote.
+Language: all work and communication in English.
+Related: the parent company is VHGLOBALS (https://www.vhglobals.com/).

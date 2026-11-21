@@ -96,7 +96,7 @@ export default function Workflow({ onBookCall }: WorkflowProps) {
               Ready to streamline your video post-production?
             </h4>
             <p className="text-sm text-neutral-600 max-w-xl">
-              Book a 15-minute strategy call with our creative leads to map out your monthly volume, style guidelines, and dedicated editor match.
+              Book a 30-minute strategy call with our creative leads to map out your monthly volume, style guidelines, and dedicated editor match.
             </p>
           </div>
 

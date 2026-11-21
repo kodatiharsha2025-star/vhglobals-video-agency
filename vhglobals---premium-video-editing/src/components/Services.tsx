@@ -10,6 +10,7 @@ import {
   PhoneCall
 } from 'lucide-react';
 import { ServiceOffering } from '../types';
+import { SLUG_BY_NICHE_ID } from '../data/niches';
 
 interface ServicesProps {
   onBookCall: (context?: string) => void;
@@ -43,7 +44,7 @@ export const SERVICES_LIST: ServiceOffering[] = [
   },
   {
     id: 'saas-explainer',
-    title: 'SaaS Explainer Videos / Product Launch Videos / Promo Videos',
+    title: 'SaaS Explainer & Product Launch Videos',
     tagline: 'Slick UI animations, cursor dynamics & high-conversion product walkthroughs.',
     targetAudience: 'B2B tech founders, product marketers & venture-backed SaaS startups.',
     formats: ['Website Hero Walkthroughs', 'Product Launch Videos', 'High-Conversion Promo Films'],
@@ -202,20 +203,32 @@ export default function Services({ onBookCall }: ServicesProps) {
                 </div>
               </div>
 
-              {/* Action Button */}
-              <a
-                href="https://calendly.com/vhstudios-global/30min"
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={(e) => {
-                  e.preventDefault();
-                  onBookCall(`Service: ${service.title}`);
-                }}
-                className="cursor-pointer w-full inline-flex items-center justify-center gap-2 py-3 rounded-xl text-xs font-bold text-neutral-900 bg-neutral-50 hover:bg-white border border-neutral-200 hover:border-[#2596be] group-hover:shadow-sm transition-all"
-              >
-                <span>Book a call for {service.title}</span>
-                <ArrowRight className="w-3.5 h-3.5 text-[#2596be] group-hover:translate-x-1 transition-transform" />
-              </a>
+              {/* Action Buttons */}
+              <div className="space-y-2">
+                {SLUG_BY_NICHE_ID[service.id] && (
+                  <a
+                    href={`/${SLUG_BY_NICHE_ID[service.id]}`}
+                    className="w-full inline-flex items-center justify-center gap-2 py-3 rounded-xl text-xs font-bold text-white bg-[#2596be] hover:bg-[#1f7c9e] shadow-sm hover:shadow transition-all"
+                  >
+                    <span>See full {service.title} breakdown</span>
+                    <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                  </a>
+                )}
+
+                <a
+                  href="https://calendly.com/vhstudios-global/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    onBookCall(`Service: ${service.title}`);
+                  }}
+                  className="cursor-pointer w-full inline-flex items-center justify-center gap-2 py-3 rounded-xl text-xs font-bold text-neutral-900 bg-neutral-50 hover:bg-white border border-neutral-200 hover:border-[#2596be] group-hover:shadow-sm transition-all"
+                >
+                  <span>Book a call for {service.title}</span>
+                  <ArrowRight className="w-3.5 h-3.5 text-[#2596be] group-hover:translate-x-1 transition-transform" />
+                </a>
+              </div>
             </div>
           ))}
 
@@ -245,7 +258,7 @@ export default function Services({ onBookCall }: ServicesProps) {
                 {[
                   'Dedicated Lead Editor + Motion Graphics Specialist',
                   'Shared Slack / Discord channel with creative director',
-                  'Guaranteed under 24hours to 48hours turnaround for priority short-form',
+                  'Guaranteed 24-48 hour turnaround for priority short-form',
                   'Flexible volume rollover & monthly quota adjustments'
                 ].map((item, idx) => (
                   <div key={idx} className="flex items-start gap-2 text-xs text-neutral-700">

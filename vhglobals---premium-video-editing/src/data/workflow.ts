@@ -58,7 +58,7 @@ export const WORKFLOW_STEPS: WorkflowCard[] = [
     iconName: 'TrendingUp',
     badge: 'Step 04 / Expansion',
     features: [
-      'Guaranteed under 24hours to 48hours draft turnarounds for Short form video editing',
+      'Guaranteed 24-48 hour draft turnarounds for short-form video editing',
       'Backup editor redundancy standby',
       'Elastic team sizing on demand'
     ]
