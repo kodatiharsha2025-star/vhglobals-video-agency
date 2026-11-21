@@ -23,12 +23,12 @@ export default function Hero({ onBookCall }: HeroProps) {
         <div className="text-center max-w-4xl mx-auto">
           {/* Headline: YOUR CONTENT . ELEVATED. */}
           <h1 className="font-heading text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-neutral-950 uppercase leading-[1.08] mb-6">
-            YOUR CONTENT <span className="text-[#2596be] inline-block transform hover:scale-105 transition-transform">.</span> ELEVATED<span className="text-[#2596be]">.</span>
+            SPECIALIST VIDEO EDITING<span className="text-[#2596be] inline-block transform hover:scale-105 transition-transform">.</span> ON RETAINER<span className="text-[#2596be]">.</span>
           </h1>
 
           {/* Supporting Headline */}
           <p className="text-lg sm:text-xl text-neutral-600 font-normal leading-relaxed max-w-3xl mx-auto mb-10">
-            VHGLOBALS is a video editing agency working on monthly retainers, with a dedicated senior editor on your account and short-form drafts delivered in 24&ndash;48 hours. Specialist editing for real estate walkthroughs, SaaS explainers, documentaries, talking heads and GeoLayers 3 map animation. <span className="text-neutral-900 font-semibold">Cinematic quality. Consistent results.</span>
+            VHGLOBALS edits real estate walkthroughs, SaaS explainers, documentaries, talking heads and GeoLayers 3 map animation. One dedicated senior editor on your account, with short-form drafts in 24&ndash;48 hours. <span className="text-neutral-900 font-semibold">Cinematic quality. Consistent results.</span>
           </p>
 
           {/* CTA Button Group */}
